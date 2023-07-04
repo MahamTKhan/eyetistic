@@ -1,0 +1,98 @@
+import React from 'react';
+
+function ShoppingComponent() {
+  return (
+    <div>
+      <div className="slider-container">
+        <div className="slider">
+          <div className="slider-item">
+            <h1>Slider Image 1</h1>
+            <img src="images/Free Vector _ Sale promotion ad poster design template.jpg" alt="Slider Image 1" />
+          </div>
+          <div className="slider-item">
+            <h1>Slider Image 2</h1>
+            <img src="images/As melhores inspirações da semana.jpg" alt="Slider Image 2" />
+          </div>
+          <div className="slider-item">
+            <h1>Slider Image 3</h1>
+            <img src="images/Pink Spring Skin Care Discount Popup Template Download on Pngtree.jpg" alt="Slider Image 3" />
+          </div>
+        </div>
+      </div>
+
+      <div className="item-grid">
+        <div className="item-card">
+          <img src="images/Best Natural Colored Contacts.jpg" alt="Product1" />
+          <h3>Grey Lenses</h3>
+          <p>1500 + tax</p>
+          <div className="item-overlay">
+            <div className="item-overlay-content">
+              <h3>Grey Lenses</h3>
+              <p>Aunthentic imported grey lenses with thin lens material comfortable for daily use</p>
+            </div>
+          </div>
+        </div>
+        <div className="item-card">
+          <img src="product2.jpg" alt="Product 2" />
+          <h3>Product 2</h3>
+          <p>Description of Product 2</p>
+          <div className="item-overlay">
+            <div className="item-overlay-content">
+              <h3>Product 2</h3>
+              <p>Detailed description of Product 2</p>
+            </div>
+          </div>
+        </div>
+        <div className="item-card">
+          <img src="product3.jpg" alt="Product 3" />
+          <h3>Product 3</h3>
+          <p>Description of Product 3</p>
+          <div className="item-overlay">
+            <div className="item-overlay-content">
+              <h3>Product 3</h3>
+              <p>Detailed description of Product 3</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="item-card">
+          <img src="product2.jpg" alt="Product 2" />
+          <h3>Product 2</h3>
+          <p>Description of Product 2</p>
+          <div className="item-overlay">
+            <div className="item-overlay-content">
+              <h3>Product 2</h3>
+              <p>Detailed description of Product 2</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="item-card">
+          <img src="product2.jpg" alt="Product 2" />
+          <h3>Product 2</h3>
+          <p>Description of Product 2</p>
+          <div className="item-overlay">
+            <div className="item-overlay-content">
+              <h3>Product 2</h3>
+              <p>Detailed description of Product 2</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="item-card">
+          <img src="product2.jpg" alt="Product 2" />
+          <h3>Product 2</h3>
+          <p>Description of Product 2</p>
+          <div className="item-overlay">
+            <div className="item-overlay-content">
+              <h3>Product 2</h3>
+              <p>Detailed description of Product 2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ShoppingComponent;
