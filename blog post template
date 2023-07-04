@@ -1,0 +1,121 @@
+import React from 'react';
+import './blogpost.css'; // Import the CSS file
+
+const BlogPost = () => {
+  return (
+    <div>
+
+      <div className="container">
+        <div className="hero">
+        </div>
+
+        <section className='main'>
+          <h2>WeakEysight?</h2>
+          <div className="profile_container">
+            <div className="profile">
+              <div className="img_container"></div>
+              <div className="text">
+                <h3>maham khan</h3>
+                <p>january 10,2023</p>
+              </div>
+            </div>
+            <div className="button">
+              <a href="#" className="btn">Visit Profile</a>
+            </div>
+          </div>
+
+          <div className="content">
+            <h4>INTRODUCTION</h4>
+            <p>Weak eyesight, also known as visual impairment, is a common condition that affects millions of people worldwide. It refers to a diminished ability to see clearly or have normal vision. In this article, we will explore the causes, symptoms, and remedies for weak eyesight, shedding light on this prevalent condition and providing insights into maintaining healthy vision.</p>
+
+            <h4>CAUSES FOR WEAK EYESIGHT:</h4>
+            <p>
+              Refractive Errors: The most common cause of weak eyesight is refractive errors, including nearsightedness (myopia), farsightedness (hyperopia), and astigmatism. These occur when the shape of the eye prevents light from focusing properly on the retina.
+              <br />
+              Age-Related Changes: As we age, the natural aging process can lead to weak eyesight. Presbyopia is a common age-related condition where the lens of the eye loses flexibility, making it difficult to focus on close objects.
+              <br />
+              Eye Diseases: Certain eye diseases, such as cataracts, glaucoma, macular degeneration, and diabetic retinopathy, can contribute to weak eyesight. These conditions affect the structures of the eye, impairing vision.
+              <br />
+              Genetics: Hereditary factors play a role in weak eyesight. If your parents or close relatives have visual impairments, you may be more prone to developing similar conditions.
+            </p>
+
+            <div className="img_container"></div>
+            <p>image description</p>
+
+            <blockquote>
+              Regular eye check-ups, healthy lifestyle choices, and timely interventions can go a long way in preserving clear and vibrant vision for years to come. Remember, your eyesight is precious, and taking care of your eyes should be a priority in your overall well-being.
+            </blockquote>
+
+            <h4>CONCLUSIONS</h4>
+            <p>In conclusion, weak eyesight is a widespread condition that can affect individuals of all ages. The causes of weak eyesight range from refractive errors to age-related changes and eye diseases. Recognizing the symptoms, such as blurred vision, headaches, and sensitivity to light, is crucial for early detection and prompt treatment. Fortunately, there are several remedies available to address weak eyesight, including corrective lenses, vision therapy, adopting a healthy lifestyle, regular eye exams, and surgical interventions when necessary. By prioritizing eye health and taking proactive steps to maintain clear vision, individuals can enjoy an improved quality of life. Remember to consult with an eye care professional for personalized guidance and recommendations. Together, we can ensure that our eyes remain healthy and our vision remains sharp for years to come.</p>
+
+            <blockquote>
+              "Take breaks from screens, look into the distance, and let your eyes breathe. They deserve it." -<i>Unknown</i>
+            </blockquote>
+          </div>
+
+          <div className="tags">
+            <p>tags:</p>
+            <a href="#">Optics</a>
+            <a href="#">Eye Issues</a>
+          </div>
+        </section>
+      </div>
+
+      <div className="articles">
+        <div className="article-heading">
+          <h5>articles</h5>
+          <h6>recent blogs</h6>
+        </div>
+
+        <div className="cards container">
+          <div className="cards-container one">
+            <div className="img-holder">
+              <a href="#">Read More</a>
+            </div>
+            <div className="card-text">
+              <h4>Glaucoma Science</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus quibusdam harum voluptas expedita voluptatem velit ad placeat eligendi dolores!</p>
+            </div>
+          </div>
+
+          <div className="cards-container two">
+            <div className="img-holder">
+              <a href="#">Read More</a>
+            </div>
+            <div className="card-text">
+              <h4>Contact Lenses in trend</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus quibusdam harum voluptas expedita voluptatem velit ad placeat eligendi dolores!</p>
+            </div>
+          </div>
+
+          <div className="cards-container three">
+            <div className="img-holder">
+              <a href="#">Read More</a>
+            </div>
+            <div className="card-text">
+              <h4>UV Protect Glasses</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore temporibus quibusdam harum voluptas expedita voluptatem velit ad placeat eligendi dolores!</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="btn">
+          <a href="#" className="btn">View more</a>
+        </div>
+      </div>
+
+      {/* <footer>
+        <div className="icons">
+          <div className="social">
+            <span className="material-icons-outlined">thumb_up_alt</span>
+            <span className="material-icons-outlined">share</span>
+            <span className="material-icons-outlined">notifications</span>
+          </div>
+        </div>
+      </footer> */}
+    </div>
+  );
+};
+
+export default BlogPost;
